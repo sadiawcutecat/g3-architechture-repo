@@ -6,13 +6,14 @@
 
 /* heading section start */
 .head-section {
-     width: 100% ;
-     height: 1190px; 
-  margin-bottom: 40px;
+    width: 100%;
+    height: 1190px;
+    margin-bottom: 40px;
     margin-right: 240px;
     background: rgba(255, 144, 14, 0.1);
 
 }
+
 /* navigation styles */
 
 .nav-container {
@@ -24,7 +25,7 @@
 .ul-list {
     display: flex;
     justify-content: space-between;
-    
+
     font-weight: 500;
     font-size: 18px;
     gap: 80px;
@@ -43,17 +44,20 @@
     flex-direction: column;
 }
 
+
+
 .banner-title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 64px;
-   
+    margin: 40px auto;
+
 }
 
 .banner-button {
     width: 180px;
     height: 64px;
-    margin-top: 32px;
+    margin-top: 20px;
     margin-bottom: 50px;
     background-color: var(--primary-color);
     font-weight: 600;
@@ -69,7 +73,7 @@
     border-radius: 8px;
 }
 
-/* heading section end */
+
 
 /* --------------
 main section start 
@@ -79,7 +83,7 @@ main section start
     justify-content: space-between;
     width: 90%;
     height: 800px;
-    
+
     gap: 70px;
     margin-left: 70px;
 
@@ -101,7 +105,7 @@ main section start
     height: 304px;
     align-items: center;
     margin-top: 140px;
-   padding: 20px;
+    padding: 20px;
 }
 
 .paragraph-title {
@@ -128,15 +132,19 @@ main section start
     font-size: 16px;
 }
 
-/*--------------- main section-2 start-------------- */
+/*--------------- 
+main section-2 start
+-------------- */
+
 .main-section-2 {
     display: flex;
     justify-content: space-between;
     gap: 54px;
     width: 80%px;
-    height: 1100px;
-    margin-top: 150px;
+    height: 1000px;
+    margin-top: 80px;
     
+
 }
 
 .article-feature {
@@ -152,11 +160,11 @@ main section start
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 45px;
-    border-left:   8px solid #FF900E;
-  padding-left: 30px;
-  padding-top: 30px;
+    border-left: 8px solid #FF900E;
+    padding-left: 30px;
+    padding-top: 30px;
 
-   
+
 }
 
 
@@ -172,10 +180,11 @@ main section start
     flex-direction: column;
     width: 586px;
     height: 744px;
-    margin-top: 30px;
+   
 }
-.feature-paragraph .child{
-    border:9px solid white;
+
+.feature-paragraph .child {
+    border: 9px solid white;
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 5px 10px rgb(250, 248, 248);
@@ -186,7 +195,7 @@ main section start
     display: flex;
     flex-direction: column;
     width: 800px;
-    height: 1059px;
+    height: 1070px;
     margin-left: 50px;
     padding-left: 40px;
 }
@@ -195,12 +204,12 @@ main section start
     width: 600px;
     height: 950px;
     border-radius: 8px;
-    
+
 }
 
 .Experience-button {
     position: relative;
-    top: -120px;
+    top: -100px;
     left: -100px;
     text-align: center;
     width: 330px;
@@ -244,7 +253,7 @@ main section start
 .icons {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .outer-div {
@@ -259,12 +268,12 @@ main section start
     width: 150px;
     height: 150px;
     margin: 40px;
-  
+
     text-align: center;
 
 }
 
-.inner-div:hover{
+.inner-div:hover {
     transform: rotate(45deg);
     width: 150px;
     height: 150px;
@@ -273,6 +282,7 @@ main section start
     text-align: center;
 
 }
+
 .inner-div>img {
     height: 50px;
     width: 40px;
@@ -283,7 +293,7 @@ main section start
     font-weight: 600;
     font-size: 30px;
     margin: 0;
-    
+
 }
 
 .inner-div>p {
@@ -292,19 +302,20 @@ main section start
     font-weight: 600;
     font-size: 20px;
     margin: 8px;
-  
-  
+
+
 }
 
 /* sponsors styles */
-.sponsors{
+.sponsors {
     margin-top: 150px;
 }
+
 .sponsors-head-para {
-  display: flex;
-  justify-content: center;
-   flex-direction: column; 
- align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sponsors-title {
@@ -339,10 +350,11 @@ main section start
     width: 100%;
     height: 1000px;
     margin-top: 170px;
-  
+
     align-items: center;
 }
-.bonus-section-flex{
+
+.bonus-section-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,22 +370,22 @@ main section start
     text-align: center;
     display: inline;
     color: rgb(3, 65, 3);
-    
-    
+
+
 }
 
 .design-grid {
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     border-radius: 8px;
     width: 342px;
     height: 342px;
-   margin-right: 450px;
-   margin-top: 100px;
-  
- 
+    margin-right: 450px;
+    margin-top: 100px;
+
+
 }
 
 .bonus-div {
@@ -412,50 +424,63 @@ main section start
     width: 1200px;
     height: 50px;
     background: #FFF4E7;
-border-radius: 8px;
-border-radius: 8px;
+    border-radius: 8px;
+   
     padding: 40px;
     margin-left: 100px;
     margin-top: 50px;
 }
-.footer-para{
+
+.footer-para {
     font-family: var(--font-family);
     font-weight: 400;
-font-size: 20px;
-color: #424242;
-text-align: center;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
 }
 
 
 /* --------------------------------------------------responsive create for mbl device------------------------------------------------- */
 
 
-@media only screen and ( max-width:576px) {
-    .nav-container, .ul-list, .banner-div>img, .main-section, .paragraph-section, .main-section-2,.article-feature,.main-section-img,.icons{
+@media only screen and (max-width:576px) {
+
+    .nav-container,
+    .ul-list,
+    .banner-div>img,
+    .main-section,
+    .paragraph-section,
+    .main-section-2,
+    .article-feature,
+    .main-section-img,
+    .icons {
         flex-direction: column;
         width: 100%;
     }
-    
-    .banner-div>img{
+
+    .banner-div>img {
         height: 400px;
     }
+
     .main-section {
-         position: relative;
-         bottom: -200px;
+        position: relative;
+        bottom: -200px;
         margin-left: 0;
-        
+
     }
-    .img-section{
-        grid-template-columns: repeat(1,1fr);
+
+    .img-section {
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
         padding: 0;
-        
-       }
-       .paragraph-section{
+
+    }
+
+    .paragraph-section {
         position: relative;
         bottom: -900px;
         padding: 0;
 
-       }
-       
+    }
+
 }
