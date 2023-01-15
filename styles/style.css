@@ -24,18 +24,15 @@
 .ul-list {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+    
     font-weight: 500;
     font-size: 18px;
     gap: 80px;
-
-}
-
-nav li{
     list-style: none;
-    text-decoration: none;
     color: #424242;
+
 }
+
 
 /* banner section styles */
 
@@ -427,4 +424,38 @@ border-radius: 8px;
 font-size: 20px;
 color: #424242;
 text-align: center;
+}
+
+
+/* --------------------------------------------------responsive create for mbl device------------------------------------------------- */
+
+
+@media only screen and ( max-width:576px) {
+    .nav-container, .ul-list, .banner-div>img, .main-section, .paragraph-section, .main-section-2,.article-feature,.main-section-img,.icons{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .banner-div>img{
+        height: 400px;
+    }
+    .main-section {
+         position: relative;
+         bottom: -200px;
+        margin-left: 0;
+        
+    }
+    .img-section{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        padding: 0;
+        
+       }
+       .paragraph-section{
+        position: relative;
+        bottom: -900px;
+        padding: 0;
+
+       }
+       
 }
